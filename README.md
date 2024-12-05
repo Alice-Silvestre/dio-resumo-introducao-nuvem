@@ -32,3 +32,17 @@ Os provedores de serviços em nuvem operam em um modelo baseado em consumo e per
 - Segurança: A nuvem ofere ferramentas e recursos de segurança que atendem às necessidades dos clientes, porém a implementação de muitas dessas ferramentas/recursos devem ser realizadas pelos clientes.
 - Governança: a auditoria baseada em nuvem ajuda a sinalizar qualquer recurso que esteja fora de conformidade com padrões coorporativos e fornece estratégias de mitigação.
 - Gerenciabilidade: trata-se da maneira de gerenciar o ambiente em nuvem e seus recursos, por exemplo, implantar recursos com um modelo pré-configurado, removendo a necessidade de configuração manual ou escalar automaticamente a implantação de recursos com base na necessidade. O gerenciamento pode ser realizado de diferentes maneiras, por meio de um portal da web, usando interface de linha de comando, usando APIs ou usando PowerShell.
+
+## Tipos de Serviços em Nuvem
+- IaaS (Infraestructure as a Service - Infraestrutura como serviço): fornece aluguel de recursos de infraestrutura como servidores, máquinas virtuais, armazenamento, redes e sistemas operacionais.
+- PaaS (Platform as a Service - Plataforma como serviço): fornece um ambiente para a criação, teste e a implantação de aplicativos de software, sem focar no gerenciamento da infraestrutura subjacente.
+- SaaS (Software as a Service - Software como serviço): neste modelo os usuários se conectam e usam aplicativo/software com base em nuvem pela Internet, como exemplos podem ser citados o Microsoft Office 365 e o Google Workspace.
+
+## Modelo de Responsabilidade Compartilhada 
+Se refere ao compartilhamento de responsabilidades entre o provedor de serviços de nuvem e o cliente. O provedor de nuvem é responsável pela segurança da infraestrura (hardware, software, redes e instalações físicas) e inclui que a manutenção, atualização e proteção dos data centers e recursos de computação. O cliente, por sua vez, é responsável pela segurança dos dados e aplicações executadas na nuvem, isso implica na responsabilidade de configuração segura dos serviços, gestão de identidades e acessos e a proteção de dados armazenados e em trânsito. 
+
+<div>
+  <img src="https://learn.microsoft.com/pt-br/azure/security/fundamentals/media/shared-responsibility/shared-responsibility.svg">
+  <figcaption><a href="https://learn.microsoft.com/pt-br/azure/security/fundamentals/shared-responsibility">Saiba Mais</a></figcaption>
+</div>
+
