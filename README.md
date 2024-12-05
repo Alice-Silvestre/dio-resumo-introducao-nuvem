@@ -23,3 +23,12 @@ Os provedores de serviços em nuvem operam em um modelo baseado em consumo e per
 - Acessibilidade: os resursos e dados podem ser acessados de qualquer lugar via internet.
 - Segurança: os provedores de nuvem oferecem medidas avançadas de segurança para proteger dados e aplicações.
 
+## Benefícios da computação em nuvem
+- Alta Disponibilidade: refere-se a garantia de disponibilidade dos serviços, independentemente de interrupções ou eventos que possam ocorrer, por meio de SLA (Service Level Agreement - Acordo de Nível de Serviço) o provedor fornece um contrato com determinado nível de resiliência/disponibilidade. 
+- Escalabilidade: capacidade de adicionar/ajustar recursos para atender à demanda, exemplo: em caso de necessidade de aumentar a capassidade de processamento pode-se adicionar mais CPUs ou RAM à máquina virtual.
+- Elasticidade: está ligada a escalabilidade, permite dimensionar o ambiente em nuvem baseado em requisições, por exemplo, caso haja um aumento repentino na demanda, os recursos implantados podem ser expandidos (esse processo pode ser feito automaticamente ou manualmente) ou em caso de queda significativa na demanda os recursos podem ser reduzidos.
+- Confiabilidade: Devido ao design descentralizado a nuvem dá suporte a uma infraestrutura confiável e resiliente e permite ter recursos implantados em diversas localidades do mundo.
+- Previsibilidade: o ambiente em nuvem permite avançar com confiança em relação ao custo ou desempenho por ambos estarem infuenciados pelo [Microsoft Well Architecture Framework](https://learn.microsoft.com/en-us/azure/well-architected/what-is-well-architected-framework).
+- Segurança: A nuvem ofere ferramentas e recursos de segurança que atendem às necessidades dos clientes, porém a implementação de muitas dessas ferramentas/recursos devem ser realizadas pelos clientes.
+- Governança: a auditoria baseada em nuvem ajuda a sinalizar qualquer recurso que esteja fora de conformidade com padrões coorporativos e fornece estratégias de mitigação.
+- Gerenciabilidade: trata-se da maneira de gerenciar o ambiente em nuvem e seus recursos, por exemplo, implantar recursos com um modelo pré-configurado, removendo a necessidade de configuração manual ou escalar automaticamente a implantação de recursos com base na necessidade. O gerenciamento pode ser realizado de diferentes maneiras, por meio de um portal da web, usando interface de linha de comando, usando APIs ou usando PowerShell.
